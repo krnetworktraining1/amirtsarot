@@ -1,0 +1,6 @@
+- name: example of playbk with gitt
+  hosts: web
+  tasks:
+      - file: 
+           path: /tmp/data
+           state: directory
